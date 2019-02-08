@@ -1,0 +1,38 @@
+/* layout  */
+* {
+    font-family: Roboto;
+}
+
+
+/* background image */
+.backgroundImage {
+    background-image: url("/images/background.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Customize CSS  */
+h1 {
+    padding-top: 6em;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+/*  carousel cutomizaton  */
+.carousel-item {
+    width: 50%;
+    /* height: 10px; */
+    margin: auto 0;
+
+}
+
+.section-projects {
+    background-color: lightseagreen;
+}
+
+#carouselIndicators>div>div:nth-child(3) {
+    margin: auto;
+}
